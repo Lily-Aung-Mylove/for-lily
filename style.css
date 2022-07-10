@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: url("https://i.gifer.com/Kxki.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.btnEnvelope img{
+    width: 300px;
+    height: 200px;
+    /* justify-content: flex-start; */
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+ .text{
+    font-size: 25px;
+    color: rgb(255, 217, 0);
+    text-shadow: 0 10px 5px #000;
+    transform: translateX(90px);
+    cursor: pointer;
+    user-select: none;
+    /* justify-content: flex-start; */
+}
+.text:active{
+    color: burlywood;
+}
+
+#fackLetter{
+    display: none;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    background: transparent;
+    border: 2px solid rgb(250, 190, 190);
+
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#realLetter{
+    display: none;
+    width: 500px;
+    height: 210px;
+
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(9, 148, 148);
+    text-shadow: 0 10px 5px #000;
+}
